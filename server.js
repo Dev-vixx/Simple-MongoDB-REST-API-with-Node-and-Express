@@ -14,7 +14,6 @@ const db = require("./config/keys").mongoURI;
     .then(()=>console.log("Mongodb has connected..."))
     .catch(err => console.log(`opps ${err} occured`))
 
-
     // route dir
 app.use("/api/items", items)
 // port config
