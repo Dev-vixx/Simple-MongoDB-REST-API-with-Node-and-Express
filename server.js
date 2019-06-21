@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 5000;
 // listening
 app.listen(PORT, ()=>
 {
-    console.log(`the server started on port ${PORT} rgba(36,39,45,.85)`);
+    console.log(`the server started on port ${PORT} `);
 })
     
 
@@ -31,4 +31,5 @@ app.listen(PORT, ()=>
 // 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.m4v" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
 // 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.webmsd.webm" type="video/webm; codecs=vp8,vorbis">
 // 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.oggtheora.ogv" type="video/ogg; codecs=theora,vorbis">
+// rgba(36,39,45,.85)
 // 	</video>
