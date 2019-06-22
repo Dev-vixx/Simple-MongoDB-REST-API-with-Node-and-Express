@@ -39,7 +39,7 @@ const PORT = process.env.PORT || 5000;
 
 
 
-// @client config
+// @client config using react
 app.use(express.static(path.join(__dirname, "client")))
 
 
@@ -50,11 +50,4 @@ app.listen(PORT, ()=>
     console.log(`the server started on port ${PORT} `);
 })
 
-
-
-// <video loop="" preload="" autoplay="" muted="" style="width: 1462px; height: 770px; margin-top: 0px; margin-left: -98px;">
-// 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.m4v" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
-// 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.webmsd.webm" type="video/webm; codecs=vp8,vorbis">
-// 		<source src="https://sonetel.com/wp-content/uploads/2014/11/Second-20-1.oggtheora.ogv" type="video/ogg; codecs=theora,vorbis">
-// 	</video>
 // rgba(36,39,45,.85)
