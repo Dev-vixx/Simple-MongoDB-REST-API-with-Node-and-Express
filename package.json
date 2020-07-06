@@ -14,7 +14,7 @@
   "author": "victor okoro iroka",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "^4.1.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.0"
   }
