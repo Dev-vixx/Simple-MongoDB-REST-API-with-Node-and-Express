@@ -8,14 +8,17 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": " concurrently \"npm run server\" \"npm run client\"",
-    "client-install": "npm install --prefix client"
-
+    "client-install": "npm install --prefix client",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "victor okoro iroka",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^4.1.0",
     "express": "^4.17.1",
-    "mongoose": "^5.6.0"
-  }
+    "mongoose": "^5.6.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
